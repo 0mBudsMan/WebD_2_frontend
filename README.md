@@ -5,6 +5,7 @@
 - Name: Om Buddhadev
 - Bucket: Frontend
 - Tech stack: React (with MUI)
+- Run the following commands once you're in the directory: npm init -y; npm install
 
 # Preview:
 
