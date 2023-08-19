@@ -88,11 +88,12 @@ function runAfterImageDelete(file) {
       onFileRemoved={(img) => runAfterImageDelete(img)
       }
       
-    /> </div> <div>
+    /> <p>Add image</p></div> <div>
                 <TextField id="filled-basic" label="Add Communities" variant="filled" className="textfield" name="communities" />
             </div>
          
         </div>
+        <hr></hr>
 
         <div>
           <div className="right">
