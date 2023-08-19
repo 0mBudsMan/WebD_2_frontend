@@ -1,5 +1,6 @@
 
 
+
 # Details:
 - Name: Om Buddhadev
 - Bucket: Frontend
@@ -8,6 +9,9 @@
 # Preview:
 
 ![Screenshot (267)](https://github.com/0mBudsMan/WebD_2_frontend/assets/128999558/a789ee70-51dc-4480-93fc-7ce6ac02464c)
+![Screenshot (268)](https://github.com/0mBudsMan/WebD_2_frontend/assets/128999558/f767b79d-fa65-4dea-a449-978c744b54d4)
+![Uploading Screenshot (269).png…]()
+![Uploading Screenshot (266).png…]()
 
 
 
