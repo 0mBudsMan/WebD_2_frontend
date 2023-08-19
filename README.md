@@ -1,7 +1,15 @@
+
+
 # Details:
 - Name: Om Buddhadev
 - Bucket: Frontend
 - Tech stack: React (with MUI)
+
+# Preview:
+
+![Screenshot (267)](https://github.com/0mBudsMan/WebD_2_frontend/assets/128999558/a789ee70-51dc-4480-93fc-7ce6ac02464c)
+
+
 
 # Tasks Completed
 -All
