@@ -22,17 +22,18 @@ const Navbar = () => {
 
         <div className="homeicon">        <Link to="/" style={{ textDecoration: "none" }}>  
         <HomeOutlinedIcon /> </Link> </div>
+        {darkMode ? (
+          <WbSunnyOutlinedIcon onClick={toggle} />
+        ) : (
+          <DarkModeOutlinedIcon onClick={toggle} />
+        )}
 
         
         
      
       </div>
       <div className="right">
-      {darkMode ? (
-          <WbSunnyOutlinedIcon onClick={toggle} />
-        ) : (
-          <DarkModeOutlinedIcon onClick={toggle} />
-        )}
+     
         <Link to="/profile/0" className="custom_style">
         <div className="user">
           <img
