@@ -1,0 +1,22 @@
+.searchbar{
+  padding-bottom: 20px;
+  
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.forPagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.searchbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
