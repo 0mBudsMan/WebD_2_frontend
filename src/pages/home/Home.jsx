@@ -122,7 +122,15 @@ const Posts = () =>{
   var[page, setPage] = useState(1);
   var x=0;
   if(JSON.parse(localStorage.getItem("posts")).length!==0) {x=JSON.parse(localStorage.getItem("posts"))[0].id}
-   
+  if(JSON.parse(localStorage.getItem("posts")).length!==0){
+    console.log(JSON.parse(localStorage.getItem("posts")).length);
+    alert("Regarding Unspash: The posts are randomly generated from unspash api. Also, the user details are real time users of unsplash who uploaded the picture on the platform. The caption is also real time description of that image")
+    alert("To regenerate the posts, go to local storage in chrome and clear posts")
+  }
+  else{
+    alert("Failed to fetch from unspash api. Refresh to reload")
+  }
+  
   var min = page*5 - 5 + x;
   var max = min+4;
 
