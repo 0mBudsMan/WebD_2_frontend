@@ -6,6 +6,8 @@
 - Bucket: Frontend
 - Tech stack: React (with MUI)
 - Run the following commands once you're in the directory: npm init -y; npm install
+- Regarding Unspash: The posts are randomly generated from unspash api. Also, the user details are real time users of unsplash who uploaded the picture on the platform. The caption is also real time description of that image
+- To regenerate the posts, go to local storage in chrome and clear posts
 
 # Preview:
 
