@@ -34,9 +34,7 @@ const Post = ({ post }) => {
                 <span className="name">{post.name}</span>
              
               <span className="date">
-                <p className="comms">Communities: {' '} </p> {commArray.map(community => {
-                  return (<p className="commslist"> {community} </p>)
-                })}
+                <p className="comms">Communities: {' '}{post.communitiesString} </p>      
               </span>
             </div>
           </div>
